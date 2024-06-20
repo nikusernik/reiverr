@@ -5,7 +5,7 @@ name: reiverr-dev
 services:
   reiverr-frontend:
     container_name: reiverr-dev
-    image: ghcr.io/aleksilassila/reiverr:latest
+    image: ghcr.io/aleksilassila/nikusernik:latest
     restart: unless-stopped
     volumes:
       - ./backend/config:/usr/src/app/config
